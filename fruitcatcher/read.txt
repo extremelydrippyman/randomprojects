@@ -1,1 +1,3 @@
+In fruitcatcher, I used machine learning (tensorflow) to teach an AI to play a game in which a fruit drops from the top of the screen and you can move left, move right, or stay still to catch it by the time it reaches your position. The AI does multiple training games then learns where it should go based off the basket's position along with the fruit's position. I used a reinforcement learning style for this, with a keras sequential neural network.
+
 The model_weights.weights.h5 are weights that I made using a few episodes. use it if you want, but you can also make your own by running train, then uploading your new weights.
